@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "AEM Shortcuts",
+  "version": "1.0",
+
+  "homepage_url": "https://github.com/mt33/firefox-aem/tree/master",
+  "description": "Navigate AEM better with Firefox",
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+ "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "AEM Shortcuts",
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/toolbar.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "firefox-aem@emtee.net"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+html, body {
+  width: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+#popup-content > div {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 2px;
+  padding: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+#popup-content > div:hover {
+  background-color: #CFF2F2;
+  color: blue;
+}
+
+#popup-content > div span:hover {
+  color: red;
+}
+
